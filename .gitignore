@@ -1,0 +1,23 @@
+﻿# Frontend
+node_modules/
+dist/
+
+# Backend
+target/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local database files
+*.mv.db
+*.trace.db
+backend/data/
+
+# Logs and IDE files
+*.log
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
